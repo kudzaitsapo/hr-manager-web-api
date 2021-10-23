@@ -125,8 +125,8 @@ This section can also be called as `Resources` or `References`
 
 [//]: # "HyperLinks"
 
-[GitHub Repository]: https://github.com/madhur-taneja/README-Template
+[GitHub Repository]: https://github.com/kudzai-tsapo/hr-manager-web-api
 [GitHub]: https://github.com/kudzaitsapo
 [LinkedIn]: https://www.linkedin.com/in/kudzai-tsapo/
 
-[license]: https://github.com/madhur-taneja/README-template/blob/master/LICENSE.md
+[license]: https://github.com/kudzaitsapo/hr-manager-web-api/blob/master/LICENSE.md
