@@ -145,7 +145,8 @@ namespace HrMan.Controllers.Employees
         {
             var response = new GenericResponseDto<EmployeeResponseDto>();
 
-            var employee = await _context.Employees.Include(e => e.HomeAddress)
+            var employee = await _context.Employees.Include(e => e.User)
+                                                .Include(e => e.HomeAddress)
                                                 .Include(e => e.Job).ThenInclude(j => j.SalaryRange)
                                                 .Include(e => e.Job).ThenInclude(j => j.Department)
                                                 .ThenInclude(j => j.Organization)

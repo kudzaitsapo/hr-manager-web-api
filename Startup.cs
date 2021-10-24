@@ -115,6 +115,18 @@ namespace HrMan
             services.AddScoped<IEmployeeLeaveService, EmployeeLeaveService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+            // CORS (not safe but what the hell)
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                               .AllowAnyMethod()
+                               .AllowAnyHeader();
+                    });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -126,6 +138,8 @@ namespace HrMan
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HrMan v1"));
             }
+
+            app.UseCors();
 
             app.UseHttpsRedirection();
 
