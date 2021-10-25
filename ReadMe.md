@@ -1,132 +1,17 @@
 # HR Manager Web API
 
-![Current Version](https://img.shields.io/badge/version-v0.1-blue)
+### What the hell is this?
+This is an API for an HR Management project. It was developed using ASP.Net Core with Entity framework
 
-This project is a web API made for a fictitious company.
+### Why an HR Management system?
+No good reason actually. I actually found the Employees schema online, and it makes it easier to develop a system from there. In simple terms, I didn't want to think too much about a schema ... (lol)
 
-Open and view the Project using the `.zip` file provided or at my [GitHub Repository]
+### How do I run it?
+Normally I'd advise people to download Visual Studio and run the solution from there. However, if you're not privileged with internet access (haha) or you have linux, then at least you need dotnet core and SQL Server installed. If you've got those already installed, then you probably don't need me to tell you how to run the code. If you don't ...
 
+### What if I fail to run it?
+There are a few possibilities:
+- You didn't change the connection string
+- You didn't run the migrations
+- You don't have DotNet Core and SQL Server installed, in which case I can't help much.
 
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Tools Required](#tools-required)
-  - [Installation](#installation)
-- [Development](#development)
-  - [Part 1: Heading](#part-1-heading)
-    - [Step 1: Subheading](#step-1-subheading)
-    - [Step 2: Subheading](#step-2-subheading)
-  - [Part 2: Heading](#part-2-heading)
-- [Running the App](#running-the-app)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
-- [Authors](#authors)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Getting Started
-
-The project might have multiple branches: `master`, `development`, etc. which can be explained here
-
-* `master` contains aggregate code of all branches
-* `development` contains code under development
-
-Other details that need to be given while starting out with the project can be provided in this section. A project structure like below can also be included for the big projects:
-
-```
-	project-title
-	├── README.md
-	├── package.json
-	├── .gitignore
-	├── public
-	│   ├── favicon.ico
-	│   ├── index.html
-	│   └── manifest.json
-	└── src
-		├── App.css
-		├── App.js
-		├── App.test.js
-		├── index.css
-		├── index.js
-		├── logo.svg
-		└── serviceWorker.js
-		└── setupTests.js
-```
-
-### Tools Required
-
-All tools required go here. You would require the following tools to develop and run the project:
-
-* Visual Studio or VS Code
-* SQL Server 
-
-
-
-### Installation
-
-All installation steps go here.
-
-* Installing a particular tool
-  * Steps to complete it
-* Installing another tool
-
-
-
-## Running the App
-
-Steps and commands for running the app are to be included here
-
-* Example steps:
-
-  ```
-    Example command
-  ```
-
-## Deployment
-
-This section is completely optional. Add additional notes about how to deploy this on a live system
-
-## Contributing
-
-Mention what you expect from the people who want to contribute
-
-We'd love to have your helping hand on `Project Title`! See [CONTRIBUTING.md] for more information on what we're looking for and how to get started.
-
-## Versioning
-
-If your project has multiple versions, include information about it here. 
-
-For the available versions, see the [tags on this repository][tags]
-
-## Authors
-
-#### Kudzai Tsapo
-
-* [GitHub]
-* [LinkedIn]
-
-
-
-## License
-
-`Project Title` is open source software [licensed as MIT][license].
-
-## Acknowledgments
-
-This section can also be called as `Resources` or `References`
-
-* Code Honor if someone's work was referred to
-* Tutorials followed
-* Articles that helped
-* Inspiration
-* etc
-
-[//]: # "HyperLinks"
-
-[GitHub Repository]: https://github.com/kudzai-tsapo/hr-manager-web-api
-[GitHub]: https://github.com/kudzaitsapo
-[LinkedIn]: https://www.linkedin.com/in/kudzai-tsapo/
-
-[license]: https://github.com/kudzaitsapo/hr-manager-web-api/blob/master/LICENSE.md
